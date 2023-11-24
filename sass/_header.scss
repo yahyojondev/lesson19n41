@@ -4,6 +4,7 @@ header {
     padding-top: 20px;
     height: 80px;
     backdrop-filter: blur(15px);
+    background-color: red;
 }
 .navbar {
     display: flex;
@@ -75,7 +76,7 @@ header {
 }
 
 .btn__navbar {
-    max-width: 110px;
+    max-width: 120px;
     height: 43px;
     color: #FFF;
     background: #02897A;
@@ -84,4 +85,58 @@ header {
 
 .right__link {
     font-weight: 600;
+}
+.dark {
+    background-color: black;
+}
+
+.dark :is(#plan, footer, .cards, .plan__card, .carousel__card, header) {
+    background-color: black;
+}
+
+.dark * {
+    color: white !important;
+}
+
+.dark :is(.home__title, span) {
+    color: white;
+}
+
+#mode-btn img {
+    width: 40px;
+}
+
+#mode-btn {
+    background-color: transparent;
+}
+#navbar{
+    padding: 20px 0;
+}
+
+.navbar-shrink{
+    padding: 20px 0;
+}
+#backtop {
+    border-radius: 10px;
+    position: fixed;
+    right: 20px;
+    bottom: -50px;
+    background-color: transparent;
+    background-color: #02897A;
+    transition: 0.5s;
+}
+.backtop__link img {
+    display: block;
+    padding: 15px;
+    color: green;
+    font-size:red;
+}
+
+#backtop.backtop-show {
+    bottom: 50px;
+}
+.menu__btn img {
+    border: none;
+    background-color: transparent;
+    font-size:30px;
 }

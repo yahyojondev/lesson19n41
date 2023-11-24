@@ -45,4 +45,21 @@
             gap: 30px;
         }
     }
+    @media(min-width:300px){
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    @media(min-width:1000px){
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    &__img{
+        @media(min-width:300px){
+            width: 100%;
+        }
+        @media(min-width:100px){
+            max-width: 543px;
+        }
+    }
 }

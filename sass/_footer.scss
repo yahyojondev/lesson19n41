@@ -8,6 +8,12 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        @media(min-width:300px){
+            // display: grid;
+            // grid-template-rows: repeat(4,1fr);
+            display: flex;
+            flex-wrap: wrap;
+        }
 
     }
 
@@ -63,6 +69,20 @@
         font-style: normal;
         font-weight: 400;
         line-height: 30px;
+        @media(min-width:300px){
+            display: none;
+        }
+        @media(min-width:1000px){
+            display: flex;
+        }
+    }
+    @media(min-width:300px){
+        display: flex;
+        flex-direction: column;
+    }
+    @media(min-width:1000px){
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -70,6 +90,10 @@
     display: flex;
     align-items: center;
     gap: 153px;
+    @media(min-width:300px){
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
 .footer__item__text {

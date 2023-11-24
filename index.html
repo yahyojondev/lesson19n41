@@ -11,7 +11,11 @@
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
   <body>
-    <header>
+    <button id="backtop">
+            <a class="backtop__link" href="#">
+                <img src="images/top.svg" alt="">
+            </a></button>
+    <header id="navbar">
       <nav>
         <div class="container">
           <div class="navbar">
@@ -19,6 +23,9 @@
               <img src="images/headerlogo.svg" alt="logo" />
               <a href="#" class="navbar__left__link">Product</a>
             </div>
+             <a id="mode-btn">
+                            <img src="images/dark.svg" alt="" />
+            </a>
             <ul class="navbar__right__list">
               <li class="navbar__right__item">
                 <a href="#" class="navbar__right__link right__link">Product</a>
@@ -39,11 +46,24 @@
                 <button class="navbar__right__btn btn__navbar">Sign up</button>
               </li>
             </ul>
+            <a id="navbar-open" class="menu__btn"><img src="images/menu.svg" alt="menu"></a>
           </div>
         </div>
       </nav>
     </header>
     <main>
+         <ul id="navbar-responsive">
+                <a id="navbar-close">
+                    <img src="images/close.svg" alt="close">
+                </a>
+                <li class="navbar__item"><a href="#" class="navbar__link">About</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">Features</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">Pricing</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">Testimonials</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">Help</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">Sign In</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">Sign Up</a></li>
+            </ul>
       <section id="home">
         <div class="container">
           <div class="home__wrapper">
@@ -152,7 +172,7 @@
       <section id="customer">
         <div class="container">
           <div class="customer__wrapper">
-            <img src="images/customer/amico.jpg" alt="customer" />
+            <img class="customer__wrapper__img" src="images/customer/amico.jpg" alt="customer" />
             <div class="customer__wrapper__right">
               <h6 class="title">Easier decision making for</h6>
               <h3 class="customer__wrapper__right__title">Customer Support</h3>
@@ -206,7 +226,7 @@
                 won’t cost you more money,
               </p>
             </div>
-            <img src="images/colloborative/amico.jpg" alt="colloborative" />
+            <img class="collaborative__wrapper__img" src="images/colloborative/amico.jpg" alt="colloborative" />
           </div>
         </div>
       </section>
@@ -462,7 +482,7 @@
               <h3 class="resources__wrapper__text">Product</h3>
               <button class="resources__wrapper__btn">Get This</button>
             </div>
-            <img src="images/resources.png" alt="resources" />
+            <img class="resources__wrapper__img" src="images/resources.png" alt="resources" />
           </div>
         </div>
       </section>
@@ -518,5 +538,12 @@
         </div>
       </section>
     </footer>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+            integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

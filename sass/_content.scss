@@ -25,14 +25,29 @@
 
     &__cards {
         display: flex;
+        flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
+        @media(min-width:300px){
+            display: flex;
+            flex-wrap: wrap;
+            align-items:center;
+            justify-content: center;
+        }
     }
 
     &__card {
         border: 1px solid #ddd;
         border-radius: 10px;
         transition: 0.5s;
+    }
+    &__card img{
+        @media(min-width:300px){
+            width: 100%;
+        }
+        @media(min-width:1000px){
+            max-width: 348px;
+        }
     }
 
     &__card:hover {
