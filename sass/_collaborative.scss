@@ -1,0 +1,27 @@
+#collaborative{
+    padding: 168px 0px 150px;
+}
+.collaborative__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 84px;
+    &__left__title{
+        margin-bottom: 23px;
+        color: #22343D;  
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+    }
+    &__left__text{
+        margin-bottom: 30px;
+        max-width: 486px;
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+}

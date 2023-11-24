@@ -1,0 +1,146 @@
+#pricing {
+    padding-top: 150px;
+}
+
+.pricing__wrapper {
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    &__title {
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 34px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+    &__text {
+        margin-bottom: 50px;
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    &__cards {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__card {
+        max-width: 322.649px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+        transition: 0.5s;
+    }
+
+    &__card:hover {
+        box-shadow: 0px 0px 5px 5px gray;
+    }
+
+    &__list {
+        display: flex;
+        padding: 24px 75px 32px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__item span {
+        margin-bottom: 8px;
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    &__item {
+        margin-bottom: 16px;
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+    }
+
+    &__item p {
+        color: #02897A;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 76px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100px;
+        letter-spacing: 0.2px;
+    }
+
+}
+
+.item__column {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pricing__wrapper__item__list__item {
+    display: flex;
+    flex-direction: column;
+}
+
+.pricing__wrapper__item__list__item span {
+    color: $second-text-color;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0.1px;
+}
+
+.pricing__item {
+    margin-bottom: 10px;
+    color: #22343D;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+
+    &__btn {
+        margin-top: 28px;
+        display: inline-flex;
+        padding: 11px 19px 11px 18px;
+        justify-content: center;
+        align-items: center;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 600;
+        border-radius: 8px;
+        background: #02897A;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+    }
+}
+.card__2{
+    background: #02897A;
+}
+.item__2 span, .pricing__wrapper__item{
+    color: #fff;
+}
+.pricing__wrapper__item__list__item{
+    color:#fff;
+}
+.item__column__text{
+    color: #fff;
+}

@@ -1,0 +1,39 @@
+#managment {
+    padding-top: 59px;
+}
+
+.managment__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__title {
+        margin-bottom: 23px;
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__text {
+        margin-bottom: 30px;
+        max-width: 486px;
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+}
+
+.title {
+    margin-bottom: 8px;
+    color: #22343D;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+}

@@ -1,0 +1,64 @@
+#product {
+    padding: 114px 0px 96px;
+    background: url(../images/homebg.jpg)no-repeat 250px 250px;
+}
+
+.product__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__title {
+        margin-bottom: 66px;
+        max-width: 539px;
+        color: #22343D;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__cards {
+        margin-bottom: 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 46px;
+    }
+
+    &__card__title {
+        margin: 30px 0px 10px;
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+    }
+
+    &__card__text {
+        max-width: 240px;
+        color: #22343D;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    &__card__btn {
+        padding: 15px 32px;
+        max-width: 175px;
+        height: 53px;
+        flex-shrink: 0;
+        border-radius: 4px;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        background: #02897A;
+    }
+}
