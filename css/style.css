@@ -338,6 +338,28 @@ header {
   font-size: 30px;
 }
 
+#navbar-responsive {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -100%;
+  height: 100vh;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: green;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
 #product {
   padding: 114px 0px 96px;
   background: url(../images/homebg.jpg) no-repeat 250px 250px;
